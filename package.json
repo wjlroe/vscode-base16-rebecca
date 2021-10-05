@@ -1,0 +1,33 @@
+{
+    "name": "base16-rebecca",
+    "displayName": "Base16 Rebecca",
+    "description": "Rebecca theme from Victor Borja",
+    "publisher": "willroe",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wjlroe/vscode-base16-rebecca.git"
+    },
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "base16",
+        "rebecca",
+        "dark",
+        "theme",
+        "purple"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Rebecca",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Rebecca-color-theme.json"
+            }
+        ]
+    }
+}
